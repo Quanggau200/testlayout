@@ -64,3 +64,29 @@ h5
 .select_login > .login_with:hover .text_login {
     color: white;
 }
+@media screen and (max-width: 1024px){
+    body
+    {
+      overflow-y: auto;
+    }
+}
+@media screen and (max-width:600px) {
+    .select_login 
+    {
+      display: block !important;
+      
+    }
+    .login_with
+    {
+      width: 85%;
+      margin:16px auto ;
+    }
+    .active
+    {
+      width: 85%;
+    }
+    .checkbox
+    {
+      display: block !important;
+    }
+}
