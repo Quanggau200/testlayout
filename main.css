@@ -73,7 +73,7 @@ h5
 @media screen and (max-width:600px) {
     body
     {
-        height: 100%;
+        height: 100% !important;
     }
     .select_login 
     {
