@@ -1,0 +1,66 @@
+body
+{
+    height: 100vh;
+    overflow-y: hidden;
+}
+.login_form,.singup_form
+{
+    flex: 1 ;
+}
+.login{
+    width: 70%;
+}
+.title_login
+{
+    font-size: 24px  ;
+}
+.main_login
+{
+        gap: 10px;   
+}
+.login_with
+{
+    width: 30%;
+    margin: 0 auto;
+    height: 40px;
+}
+.text_login
+{
+    line-height: 20px;
+    font-size: 14px;
+}
+h5
+{
+    font-size: 16px;
+    color: var(--color--under--selected);
+}
+.facebook img
+{
+    width: 24px;
+    height: 24px;
+}
+.active
+{
+    width: 30%;
+    background-color: #44bd32 !important;
+    border: none !important;
+}
+.notice span
+{
+    font-size: 14px;
+}
+
+.security 
+{
+    font-size: 14px;
+    color: var(--color--button);
+    text-decoration: underline;
+    
+}
+.select_login >.login_with:hover
+{
+    background-color: var(--color--select);
+}
+.select_login > .login_with:hover .text_login {
+    color: white;
+}
